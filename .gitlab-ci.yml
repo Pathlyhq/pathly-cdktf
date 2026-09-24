@@ -1,0 +1,34 @@
+stages:
+  - test
+  - build
+
+default:
+  image: node:20-bookworm
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+
+test:
+  stage: test
+  script:
+    - npm ci
+    - npm test
+  coverage: '/All files\s+\|\s+([\d.]+)/'
+  artifacts:
+    when: always
+    paths:
+      - coverage/
+    expire_in: 1 week
+
+build:
+  stage: build
+  script:
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 1 week
+  needs:
+    - test

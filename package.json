@@ -1,0 +1,78 @@
+{
+  "name": "@pathlyhq/cdktf",
+  "version": "0.1.0",
+  "description": "CDK for Terraform (CDKTF) TypeScript constructs for the Pathly provider (pathlyhq/pathly).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "README.fr.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "cdktf": "^0.20.0",
+    "constructs": "^10.3.0"
+  },
+  "peerDependenciesMeta": {
+    "cdktf": {
+      "optional": true
+    },
+    "constructs": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vitest/coverage-v8": "^2.1.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "author": {
+    "name": "Simon Raynaud / keyral"
+  },
+  "contributors": [
+    "Pathly <devs@pathlyhq.com>"
+  ],
+  "homepage": "https://pathlyhq.com",
+  "bugs": {
+    "url": "https://github.com/pathlyhq/pathly-cdktf/issues"
+  },
+  "keywords": [
+    "pathly",
+    "pathlyhq",
+    "monitoring",
+    "synthetic-monitoring",
+    "saas",
+    "cdktf",
+    "terraform",
+    "opentofu",
+    "iac"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pathlyhq/pathly-cdktf.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

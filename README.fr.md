@@ -1,4 +1,4 @@
-# @pathlyhq/cdktf
+# @pathly/cdktf
 
 [English](README.md) · **Français** · [Español](README.es.md)
 
@@ -21,7 +21,7 @@ JSON Terraform (provider + `pathly_scenario`, `pathly_webhook`,
 réutilisez les mêmes formes d’attributs.
 
 ```ts
-import { PathlyApp } from "@pathlyhq/cdktf";
+import { PathlyApp } from "@pathly/cdktf";
 
 const app = new PathlyApp().withProvider({});
 
@@ -63,7 +63,7 @@ export PATHLY_API_TOKEN="sp_…"
 ## Installation
 
 ```sh
-npm install @pathlyhq/cdktf
+npm install @pathly/cdktf
 # peers optionnels pour une app CDKTF complète :
 npm install cdktf constructs
 ```
@@ -106,7 +106,7 @@ npm run build
 | [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu provider |
 | [pathly-opentofu](https://github.com/pathlyhq/pathly-opentofu) | OpenTofu docs & examples |
 | [pathly-pulumi](https://github.com/pathlyhq/pathly-pulumi) | Pulumi |
-| [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathlyhq/sdk |
+| [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathly/sdk |
 | [Pathly product](https://pathlyhq.com) | [Pathly monitoring](https://pathlyhq.com) |
 ## À propos de Pathly
 

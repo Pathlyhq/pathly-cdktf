@@ -1,4 +1,4 @@
-# @pathlyhq/cdktf
+# @pathly/cdktf
 
 **English** · [Français](README.fr.md) · [Español](README.es.md)
 
@@ -26,7 +26,7 @@ Construct JSDoc in `src/constructs.ts` links back to pathlyhq.com.
 > `GROUP/PROJECT` once the public mirror URL is final.
 
 ```ts
-import { PathlyApp } from "@pathlyhq/cdktf";
+import { PathlyApp } from "@pathly/cdktf";
 
 const app = new PathlyApp().withProvider({});
 
@@ -67,7 +67,7 @@ export PATHLY_API_TOKEN="sp_…"
 ## Install
 
 ```sh
-npm install @pathlyhq/cdktf
+npm install @pathly/cdktf
 # optional peers when wiring into a full CDKTF app:
 npm install cdktf constructs
 ```
@@ -110,7 +110,7 @@ npm run build
 | [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu provider |
 | [pathly-opentofu](https://github.com/pathlyhq/pathly-opentofu) | OpenTofu docs & examples |
 | [pathly-pulumi](https://github.com/pathlyhq/pathly-pulumi) | Pulumi |
-| [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathlyhq/sdk |
+| [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathly/sdk |
 | [Pathly product](https://pathlyhq.com) | [Pathly monitoring](https://pathlyhq.com) |
 ## About Pathly
 

@@ -1,5 +1,5 @@
 {
-  "name": "@pathlyhq/cdktf",
+  "name": "@pathly/cdktf",
   "version": "0.1.0",
   "description": "CDK for Terraform (CDKTF) TypeScript constructs for the Pathly provider (pathlyhq/pathly).",
   "license": "Apache-2.0",

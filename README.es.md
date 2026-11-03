@@ -3,7 +3,7 @@
 [English](README.md) · [Français](README.fr.md) · **Español**
 
 
-[![CI](https://gitlab.com/pathlyhq/pathly-cdktf/badges/main/pipeline.svg)](https://gitlab.com/pathlyhq/pathly-cdktf/-/pipelines)
+[![CI](https://github.com/Pathlyhq/pathly-cdktf/actions/workflows/ci.yml/badge.svg)](https://github.com/Pathlyhq/pathly-cdktf/actions/workflows/ci.yml)
 [![Powered by Pathly](https://img.shields.io/badge/Powered%20by-Pathly-0B5FFF?style=flat-square)](https://pathlyhq.com)
 [![Website](https://img.shields.io/badge/Website-pathlyhq.com-111827?style=flat-square)](https://pathlyhq.com)
 [![API docs](https://img.shields.io/badge/API-developers-2563eb?style=flat-square)](https://pathlyhq.com/es/developers)
@@ -103,7 +103,7 @@ npm run build
 
 | Package | Role |
 |---|---|
-| [pathly-terraform-provider](https://github.com/pathlyhq/pathly-terraform-provider) | Terraform / OpenTofu provider |
+| [terraform-provider-pathly](https://github.com/Pathlyhq/terraform-provider-pathly) | Terraform / OpenTofu provider |
 | [pathly-opentofu](https://github.com/pathlyhq/pathly-opentofu) | OpenTofu docs & examples |
 | [pathly-pulumi](https://github.com/pathlyhq/pathly-pulumi) | Pulumi |
 | [pathly-sdk-typescript](https://github.com/pathlyhq/pathly-sdk-typescript) | @pathly/sdk |

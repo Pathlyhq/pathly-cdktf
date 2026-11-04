@@ -55,7 +55,7 @@
   ],
   "homepage": "https://pathlyhq.com",
   "bugs": {
-    "url": "https://github.com/pathlyhq/pathly-cdktf/issues"
+    "url": "https://github.com/Pathlyhq/pathly-cdktf/issues"
   },
   "keywords": [
     "pathly",
@@ -70,7 +70,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pathlyhq/pathly-cdktf.git"
+    "url": "https://github.com/Pathlyhq/pathly-cdktf.git"
   },
   "publishConfig": {
     "access": "public"
